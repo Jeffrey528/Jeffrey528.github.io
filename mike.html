@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body:before {
+      content: '';
+      font-size: 80px;
+      display: block;
+      
+    }
+   @media all and (min-width:700px) {
+      div {
+        display: inline-block;
+        width: 50%;
+        
+      }
+
+      body:before {
+        content: '';
+        font-size: 80px;
+      }
+    }
+
+    @media all and (min-width:1000px) {
+      div {
+        width: 50%;
+      }
+
+      body:before {
+        content: '';
+        font-size: 80px;
+      }
+    }
+
+    @media all and (min-width: 1900px) {
+      div {
+        width: 50%;
+        
+      }
+    
+      body:before {
+        content: '';
+        font-size: 80px;
+      }
+    }
+#container{
+    background:  linear-gradient(45deg,blue,green,pink,orange,yellow,black,white,purple,brown,cyan,lime,maroon,grey,tan,coral);
+    padding: 50px;
+    padding-top: 50px;
+}
+#item{
+    float: left;
+    color: blue;
+}
+#item2{
+    float: right;
+    color: red;
+}
+    #headline{
+   text-align: center;
+   background: linear-gradient(45deg,blue,green,pink,orange,yellow,black,white,purple,brown,cyan,lime,maroon,grey,tan,coral);
+   padding: 300px;
+   padding-top:300px;
+ }
+ #headline h1{
+    font-size: 150px;
+    color: darkgoldenrod;
+ }
+ #headline i{
+    font-size: 50px;
+    display: block;
+    color: silver;
+    margin-top: -100px;
+ }
+ #headline button {
+         display: block;
+         margin: auto;
+         background-color: gold;
+         height: 65px;
+         width: 200px;
+      }
+#headline span{
+    font-size: 25px;
+}
+#audio{
+    text-align: center;
+    background: linear-gradient(90deg,coral,tan,gray,maroon,lime,cyan,brown,purple,white,black,yellow,orange,pink,green,blue);
+    padding: 300px;
+    padding-top: 300px;
+}
+#audio h1{
+    font-size: 70px;
+    color: burlywood;
+}
+#audio h3{
+    font-size: 30px;
+    color: teal;
